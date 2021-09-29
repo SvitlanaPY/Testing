@@ -1,5 +1,6 @@
 import unittest
-import sys, os
+import sys
+import os
 
 # у модуля sys є атрибут path - список з усіма директоріями системними і оск це список, то він має метод append
 
@@ -9,8 +10,20 @@ from main import *
 
 
 class TestNitroSalt(unittest.TestCase):
-    def test_nitro_salt_returns_integer(self):
+    def test_nitro_salt_returns_mass(self):
         self.assertEqual(nitro_salt(1000), 10)
+        self.assertEqual(nitro_salt(1500), 15)
+        self.assertEqual(nitro_salt(800), 8)
+
+    def test_nitro_salt_returns_integer(self):
+        self.assertIsInstance(nitro_salt(1000), int)
+
+    def test_nitro_salt_receives_string_returns_integer(self):
+        self.assertEqual(nitro_salt('1000'), 10)
+
+    def test_nitro_salt_receives_alpha_string_returns_zero(self):
+        self.assertEqual(nitro_salt("hfghf"), 0)
+
 
 
 if __name__ == "__main__":
