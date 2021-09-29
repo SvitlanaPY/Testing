@@ -4,7 +4,7 @@ import sys, os
 # у модуля sys є атрибут path - список з усіма директоріями системними і оск це список, то він має метод append
 
 sys.path.append(os.getcwd())
-from main_ import *
+from main import *
 
 
 
