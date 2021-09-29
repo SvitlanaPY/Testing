@@ -1,9 +1,9 @@
 import unittest
-import sys
-import os
+# import sys
+# import os
 
-from testing.calc import Calc
-sys.path.append(os.getcwd())
+from testing.calc_ import Calc
+# sys.path.append(os.getcwd())
 
 
 class TestDiv(unittest.TestCase):

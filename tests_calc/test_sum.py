@@ -2,7 +2,7 @@ import unittest
 # import sys
 # import os
 
-from testing.calc import Calc
+from testing.calc_ import Calc
 # sys.path.append(os.getcwd())
 
 
