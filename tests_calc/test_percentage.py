@@ -1,9 +1,5 @@
 import unittest
-# import sys
-# import os
-
 from testing.calc_ import Calc
-# sys.path.append(os.getcwd())
 
 
 class TestPerc(unittest.TestCase):
