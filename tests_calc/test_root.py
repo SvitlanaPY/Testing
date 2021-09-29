@@ -4,7 +4,7 @@ from testing.calc_ import Calc
 
 class TestRoot(unittest.TestCase):
     """
-    TESTing_ square root of any number in calculator
+    Testing square root of any number in calculator
     """
     def setUp(self) -> None:
         print('setUp')

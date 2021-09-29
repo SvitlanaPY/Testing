@@ -4,7 +4,7 @@ from testing.calc_ import Calc
 
 class TestPerc(unittest.TestCase):
     """
-    TESTing_ percentage of any number in calculator
+    Testing percentage of any number in calculator
     """
     def setUp(self) -> None:
         print('setUp')

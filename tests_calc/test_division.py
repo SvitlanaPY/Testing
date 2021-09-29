@@ -4,7 +4,7 @@ from testing.calc_ import Calc
 
 class TestDiv(unittest.TestCase):
     """
-    TESTing_ division of values in calculator
+    Testing division of values in calculator
     """
     def setUp(self) -> None:
         print('setUp')

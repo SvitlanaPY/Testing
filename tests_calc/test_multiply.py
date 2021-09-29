@@ -4,7 +4,7 @@ from testing.calc_ import Calc
 
 class TestMult(unittest.TestCase):
     """
-    TESTing_ multiplication of values in calculator
+    Testing multiplication of values in calculator
     """
     def setUp(self) -> None:
         print('setUp')

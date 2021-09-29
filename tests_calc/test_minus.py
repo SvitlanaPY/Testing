@@ -4,7 +4,7 @@ from testing.calc_ import Calc
 
 class TestMinus(unittest.TestCase):
     """
-    TESTing_ subtraction of values in calculator
+    Testing subtraction of values in calculator
     """
     def setUp(self) -> None:
         print('setUp')

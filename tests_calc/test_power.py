@@ -4,7 +4,7 @@ from testing.calc_ import Calc
 
 class TestPow(unittest.TestCase):
     """
-    TESTing_ rise any number to the power in calculator
+    Testing rise any number to the power in calculator
     """
     def setUp(self) -> None:
         print('setUp')

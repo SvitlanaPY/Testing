@@ -4,7 +4,7 @@ from testing.calc_ import Calc
 
 class TestSum(unittest.TestCase):
     """
-    TESTing_ adding of values in calculator
+    Testing adding of values in calculator
     """
 
     def setUp(self) -> None:
