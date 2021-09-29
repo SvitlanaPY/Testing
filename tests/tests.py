@@ -1,12 +1,9 @@
 import unittest
 import sys
 import os
-
 # у модуля sys є атрибут path - список з усіма директоріями системними і оск це список, то він має метод append
-
 sys.path.append(os.getcwd())
-from main import *
-
+from main_ import *
 
 
 class TestNitroSalt(unittest.TestCase):
@@ -26,7 +23,7 @@ class TestNitroSalt(unittest.TestCase):
 
 
 
-if __name__ == "__main__":
+if __name__ == '__main__':
     unittest.main()
     # метод main() у unittest, який азапускає всі наші тести
 
