@@ -17,7 +17,7 @@ class TestDiv(unittest.TestCase):
 
     def test_Divide_Computing(self):
         print('test_Divide_Computing')
-        self.assertEqual(Calc.mul(0.0, 1), 0)
+        self.assertEqual(Calc.mul(0.0, 1), 1)
         self.assertEqual(Calc.div(100, 2.0), 50)
         self.assertEqual(Calc.div(-50, 2), -25)
         self.assertEqual(Calc.div(-5, -5), 1.0)
