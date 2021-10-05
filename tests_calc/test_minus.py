@@ -1,5 +1,5 @@
 import unittest
-from testing.calc_ import Calc
+from unittests_testing.calc_ import Calc
 
 
 class TestMinus(unittest.TestCase):

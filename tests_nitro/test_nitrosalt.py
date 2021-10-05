@@ -1,5 +1,5 @@
 import unittest
-from testing.main_ import *
+from unittests_testing.main_ import *
 
 
 class TestNitroSalt(unittest.TestCase):
