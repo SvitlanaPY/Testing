@@ -1,5 +1,5 @@
 import unittest
-from unittests_testing.main_ import *
+from unittests_testing.nitro_ import *
 
 
 class TestNitroSalt(unittest.TestCase):
@@ -22,7 +22,7 @@ if __name__ == '__main__':
     unittest.main()
     # метод main() у unittest, який азапускає всі наші тести
 
-# оскільки наш файл (модуль) з кодом main_.py знаходиться на рівень вище, ніж тести,
-# то виникає проблема імпортування всіх функцій, сутностей із файлу main_.py у файл test.py
+# оскільки наш файл (модуль) з кодом nitro_.py знаходиться на рівень вище, ніж тести,
+# то виникає проблема імпортування всіх функцій, сутностей із файлу nitro_.py у файл test.py
 # щоб імпортувати модуль, який знаходиться на рівень вище, потрібно додати папку testing_unittesting у системну змінну path
-# і для цього ми імпортуємо ще два модулі: import sys, import os
+# і для цього можна використати два модулі: import sys, import os
