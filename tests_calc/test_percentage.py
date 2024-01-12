@@ -1,5 +1,5 @@
 import unittest
-from unittests_testing.calc_ import Calc
+from Testing.calc_ import Calc
 
 
 class TestPerc(unittest.TestCase):
